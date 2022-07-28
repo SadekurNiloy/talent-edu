@@ -12,6 +12,7 @@
 }
 .last-menu ul li a {
     text-decoration: none;
-    padding: 10px 30px;
-
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 30px;
 }
