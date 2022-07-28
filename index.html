@@ -3,17 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Talent-It-Edu | Web Learning Institute</title>
     <!-- bootstrap cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- fontawesome link  -->
+    <script src="https://kit.fontawesome.com/a5cdec966a.js" crossorigin="anonymous"></script>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- header section start  -->
     <header> 
         <!-- navbar section start  -->
-        <section class="container">
+        <section class="container fixed-top">
             <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container">
+                <div class="container ">
                   <div class="me-5">
                     <a class="navbar-brand fw-bold fs-1" href="#">Talent Edu</a>
                   </div>
@@ -50,7 +54,7 @@
               </nav>
         </section>
         <!-- slidebar carousel section start  -->
-        <section class="container">
+        <section class="container mt-5 pt-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -98,6 +102,180 @@
         </section>
     </header>
     <!-- header section end -->
+    <!-- main section start  -->
+    <main>
+        <!-- course headling  -->
+        <section class="container mt-5">
+            <div class="mt-5 text-center my-5">
+                <h1>Discover Our Popular <br> Courses</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>  
+            </div>
+        </section>
+        <!-- all courses section  start -->
+        <section class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-6 my-3">
+                    <div class="d-flex  flex-column flex-lg-row flex-md-row  align-items-center">
+                        <img src="images/course/course-1.png" alt="">
+                        <div class="ps-2 border border-1 mt-3 mt-sm-3">
+                            <h3>Fundamental Of UI/UX Design</h3>
+                            <p>Some quick example text to build on the card title 
+                                and make up the bulk of the card.</p>
+                            <h4>Price: $20</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="d-flex flex-column flex-lg-row flex-md-row align-items-center ">
+                        <img src="images/course/course-2.png" alt="">
+                        <div class="ps-2 border border-1 mt-3 mt-sm-3">
+                            <h3>Fullstack Web Development</h3>
+                            <p>Some quick example text to build on the card title 
+                                and make up the bulk of the card.</p>
+                            <h4>Price: $20</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="d-flex flex-column flex-lg-row flex-md-row align-items-center ">
+                        <img src="images/course/course-3.png" alt="">
+                        <div class="ps-2 border border-1 mt-3 mt-sm-3">
+                            <h3>Photography Basic Rules</h3>
+                            <p>Some quick example text to build on the card title 
+                                and make up the bulk of the card.</p>
+                            <h4>Price: $20</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="d-flex flex-column flex-lg-row flex-md-row align-items-center ">
+                        <img src="images/course/course-4.png" alt="">
+                        <div class="ps-2 border border-1 mt-3 mt-sm-3">
+                            <h3>Javascript Basic to advanced</h3>
+                            <p>Some quick example text to build on the card title 
+                                and make up the bulk of the card.</p>
+                            <h4>Price: $20</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="d-flex flex-column flex-lg-row flex-md-row align-items-center ">
+                        <img src="images/course/course-5.png" alt="">
+                        <div class="ps-2 border border-1 mt-3 mt-sm-3">
+                            <h3>Digital Marketing</h3>
+                            <p>Some quick example text to build on the card title 
+                                and make up the bulk of the card.</p>
+                            <h4>Price: $20</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="d-flex flex-column flex-lg-row flex-md-row align-items-center ">
+                        <img src="images/course/course-6.png" alt="">
+                        <div class="ps-2 border border-1 mt-3 mt-sm-3">
+                            <h3>Motion Graphics</h3>
+                            <p>Some quick example text to build on the card title 
+                                and make up the bulk of the card.</p>
+                            <h4>Price: $20</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-12 text-center my-5">
+              <div class="btn btn-info fw-bold text-white">See More Courses</div>
+            </div>
+            
+        </section>
+        <!-- Ready to join section start  -->
+        <section class="container py-5">
+          <div class="d-flex flex-column flex-lg-row flex-md-row align-items-center justify-content-between bg-primary p-5 border rounded text-white">
+            <div>
+              <h2>Ready to join?</h2>
+              <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+            </div>
+            <div>
+              <!-- modal added  -->
+              <div class="text-dark">
+                <button type="button" class="btn text-primary fw-bold bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Email</label>
+                          <input type="email" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Password</label>
+                          <input type="password" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <!-- Trusted compananies section start  -->
+        <section class="container my-5">
+          <div class="hidden-xs-down hidden-sm-down hidden-md-down d-none d-lg-block">
+            <h1 class="text-center my-5">Trusted by over 800+ companies</h1>
+          <div class="d-flex justify-content-around">
+            <div class="img">
+              <img src="images/company/company-1.png" alt="">
+            </div>
+            <div class="img">
+              <img src="images/company/company-2.png" alt="">
+            </div>
+            <div class="img">
+              <img src="images/company/company-3.png" alt="">
+            </div>
+            <div class="img">
+              <img src="images/company/company-4.png" alt="">
+            </div>
+            <div class="img">
+              <img src="images/company/company-5.png" alt="">
+            </div>
+            <div class="img">
+              <img src="images/company/company-6.png" alt="">
+            </div>
+          </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <section class="container py-5">
+        <div class="text-center">
+          <h1>Talent Edu</h1>
+          <p>Office 360, Gazipur Sadar, <br> Gazipur of Bangladesh</p>
+          <p>Privacy Policy | Terms of use</p>
+        </div>
+        <div class="last-menu">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>

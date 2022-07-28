@@ -1,1 +1,17 @@
-/* carousel area  */
+/* Trusted compananies section start  */
+.img img {
+    width: 100px;
+}
+/* footer section  */
+.last-menu ul {
+    display: flex;
+    justify-content: center;
+}
+.last-menu ul li {
+    list-style: none;
+}
+.last-menu ul li a {
+    text-decoration: none;
+    padding: 10px 30px;
+
+}
